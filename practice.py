@@ -1,4 +1,5 @@
-name = input("What is your name: ")
-output = f"Welcome {name}"
+d = {'John', 'Joe', 'Mary', 'Larry'}
+k = {'Mary'}
 
-print(output)
+e = d.intersection(k)
+print(e)
